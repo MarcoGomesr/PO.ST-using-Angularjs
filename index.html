@@ -1,18 +1,22 @@
-<!doctype html>
-<html ng-app="App">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-  </head>
-  <body >
-  <div class="pw-widget pw-counter-none" social data-key='piar45n5874gushtcib4'>
-      <a class="pw-button-facebook pw-look-native"></a>
-      <a class="pw-button-twitter pw-look-native"></a>
-      <a class="pw-button-googleplus pw-look-native"></a>
-      <a class="pw-button-pinterest pw-look-native"></a>
-      <a class="pw-button-post-share"></a>
-    </div>   
-  </body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Angularjs Directive</title>
+    </head>
+    <body ng-app='MyApp'>
+    <div ng-controller='MainController'>
+     <div class="pw-widget pw-counter-none" social data-key='piar45n5874gushtcib4'>
+        <a class="pw-button-facebook pw-look-native"></a>
+        <a class="pw-button-twitter pw-look-native"></a>
+        <a class="pw-button-googleplus pw-look-native"></a>
+        <a class="pw-button-pinterest pw-look-native"></a>
+        <a class="pw-button-post-share"></a>
+      </div>   
+       
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+    <script src='app.js'></script>
+    <script src='post.js'></script>
+    </body>
 </html>
