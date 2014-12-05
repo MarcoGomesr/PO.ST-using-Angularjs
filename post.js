@@ -1,10 +1,9 @@
 'use strict';
-angular.module('App').directive('social', function ($timeout, $http) {
+App.directive('social', function () {
 
   return {
     restrict: 'A',
-  
-          
+         
   link: function(scope,el,attrs){
   	 var s = document.createElement('script');
 	  s.type = 'text/javascript';
